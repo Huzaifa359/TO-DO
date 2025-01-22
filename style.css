@@ -1,0 +1,62 @@
+input{
+    width: 50%;
+    height: 40px;
+    border-radius:10px ;
+}
+div{
+    border: 2px solid black;
+    width: 90%;
+display: inline-block;
+margin: 10px;
+height: 30px;
+border-radius: 10px;
+padding: 5px;
+}
+button:hover{
+    background-color: red;
+    transition: 500ms;
+}
+.btn:hover{
+background-color: rgb(87, 219, 87);
+transition: 500ms;
+}
+button{
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+}
+button:hover{
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+div:hover{
+    transition: 300ms;
+    background-color: green;
+    width: 90%;
+    height:40px ;
+}
+.light{
+
+}
+#dark{
+width: 79px;
+position: absolute;
+bottom: 1px;
+right: 80px;
+background-color: black;
+color: white;
+}
+#dark:hover{
+
+}
+#light{
+    width:79px;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+#light:hover{
+    background-color: white;
+}
